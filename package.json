@@ -4,6 +4,7 @@
   "description": "A powerful React Native swipe component based on @jshanson7 package",
   "main": "lib/index.js",
   "scripts": {
+    "postinstall": "make build",
     "build": "make build",
     "lint": "make lint"
   },
@@ -38,7 +39,6 @@
     "TableView"
   ],
   "dependencies": {
-    "deprecated-react-native-prop-types": "^2.3.0",
     "prop-types": "^15.5.10"
   }
 }
